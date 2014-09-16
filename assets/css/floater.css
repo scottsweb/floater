@@ -1,0 +1,28 @@
+#floater-sidebar
+	{
+	position: fixed;
+	background: #fff;
+	bottom: 15px;
+	right: -320px;
+	width: 320px;
+	display: block;
+	z-index: 10000;
+	padding: 15px;
+	}
+
+#floater-sidebar.visible
+	{
+	right: 15px;
+	}
+
+.floater-close
+	{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #ccc;
+	padding: 10px;
+	line-height: 15px;
+	font-size: 15px;
+	text-align: center;
+	}

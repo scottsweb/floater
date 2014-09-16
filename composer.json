@@ -1,0 +1,15 @@
+{
+	"name"       : "cftp/floater",
+	"description": "A floating sidebar area trigger by scroll.",
+	"type"       : "wordpress-plugin",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "Code For The People",
+			"homepage": "http://codeforthepeople.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
