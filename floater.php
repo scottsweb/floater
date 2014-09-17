@@ -101,6 +101,9 @@ class floater {
 	 */
 	function floater_styles() {
 
+		if (! is_active_sidebar( 'floater' ) )
+			return false;
+
 		// register all css
 		wp_register_style( 'floater', plugins_url( 'assets/css/floater.css', __FILE__ ), array(), filemtime( plugin_dir_path( __FILE__ ) . 'assets/css/floater.css' ) );
 
@@ -117,6 +120,9 @@ class floater {
 	 * @return void
 	 */
 	function floater_scripts() {
+
+		if (! is_active_sidebar( 'floater' ) )
+			return false;
 
 		// register all scripts
 		wp_register_script( 'jquery-cookie', plugins_url( 'assets/js/jquery.cookie.js', __FILE__ ), array(), filemtime( plugin_dir_path( __FILE__ ) . 'assets/js/jquery.cookie.js' ), true);
@@ -135,6 +141,10 @@ class floater {
 	 * @return void
 	 */
 	function floater_footer() {
+
+		if (! is_active_sidebar( 'floater' ) )
+			return false;
+
 		?>
 		<aside id="floater-sidebar">
 			<a href="#" class="floater-close"><span class="icon-close">x</span></a>
