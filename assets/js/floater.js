@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
 	jQuery('.floater-close').click(function(e) {
 		e.preventDefault();
 		jQuery("#floater-sidebar").removeClass('visible');
-		jQuery.cookie("floater", "1");
+		jQuery.cookie("floater", "1", { expires: 7, path: '/' });
 	});
 });
 
