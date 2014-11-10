@@ -2,7 +2,7 @@
 /*
 Plugin Name: Floater
 Plugin URI: https://bitbucket.com/cftp/floater
-Description: A floating sidebar area trigger by scroll.
+Description: A floating sidebar area triggered by scroll.
 Author: Scott Evans (Code For The People)
 Version: 1.0
 Author URI: http://codeforthepeople.com
